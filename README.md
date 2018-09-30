@@ -28,6 +28,8 @@ wget -q -O - https://raw.github.com/dhyegofernando/dotfiles/master/install | bas
 - [ ] Setup PHP
 - [ ] Setup phpmyadmin
 - [ ] Setup DBeaver
+- [ ] Setup Google Chrome Canary
+- [ ] Setup Firefox
 - [ ] Setup Parallels
 - [ ] Setup XCode
 - [ ] Setup JavaJDK
