@@ -15,6 +15,7 @@ wget -q -O - https://raw.github.com/dhyegofernando/dotfiles/master/install | bas
 ```
 
 ## Roadmap
+[ ] Setup OSX System Preferences
 [ ] Setup Homebrew
 [ ] Setup iTerm2
 [ ] Setup ZSH
@@ -54,6 +55,10 @@ wget -q -O - https://raw.github.com/dhyegofernando/dotfiles/master/install | bas
 [ ] Setup http-server
 [ ] Setup Maven
 [ ] Setup React Native CLI
+[ ] Setup Adobe Photoshop CC
+[ ] Setup Adobe Illustrator CC
+[ ] Setup zoom.us
+[ ] Setup Keynote
 
 ## License
 
