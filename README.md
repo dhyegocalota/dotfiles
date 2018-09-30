@@ -15,50 +15,50 @@ wget -q -O - https://raw.github.com/dhyegofernando/dotfiles/master/install | bas
 ```
 
 ## Roadmap
-[ ] Setup OSX System Preferences
-[ ] Setup Homebrew
-[ ] Setup iTerm2
-[ ] Setup ZSH
-[ ] Setup oh-my-zsh
-[ ] Setup MySQL
-[ ] Setup Postgres
-[ ] Setup Apache2
-[ ] Setup RVM
-[ ] Setup NVM
-[ ] Setup PHP
-[ ] Setup phpmyadmin
-[ ] Setup DBeaver
-[ ] Setup Parallels
-[ ] Setup XCode
-[ ] Setup JavaJDK
-[ ] Setup AndroidSDK
-[ ] Setup Genymotion
-[ ] Setup XCode
-[ ] Setup 1Password
-[ ] Setup LastPass
-[ ] Setup Docker
-[ ] Setup Franz
-[ ] Setup Visual Code
-[ ] Setup Sublime Text
-[ ] Setup React Native Debugger
-[ ] Setup git
-[ ] Setup SSH
-[ ] Setup Heroku CLI
-[ ] Setup AWS CLI
-[ ] Setup Composer
-[ ] Setup RAR
-[ ] Setup GDrive CLI
-[ ] Setup HTop
-[ ] Setup Tree
-[ ] Setup iDeviceInstaller
-[ ] Setup json-server
-[ ] Setup http-server
-[ ] Setup Maven
-[ ] Setup React Native CLI
-[ ] Setup Adobe Photoshop CC
-[ ] Setup Adobe Illustrator CC
-[ ] Setup zoom.us
-[ ] Setup Keynote
+- [ ] Setup OSX System Preferences
+- [ ] Setup Homebrew
+- [ ] Setup iTerm2
+- [ ] Setup ZSH
+- [ ] Setup oh-my-zsh
+- [ ] Setup MySQL
+- [ ] Setup Postgres
+- [ ] Setup Apache2
+- [ ] Setup RVM
+- [ ] Setup NVM
+- [ ] Setup PHP
+- [ ] Setup phpmyadmin
+- [ ] Setup DBeaver
+- [ ] Setup Parallels
+- [ ] Setup XCode
+- [ ] Setup JavaJDK
+- [ ] Setup AndroidSDK
+- [ ] Setup Genymotion
+- [ ] Setup XCode
+- [ ] Setup 1Password
+- [ ] Setup LastPass
+- [ ] Setup Docker
+- [ ] Setup Franz
+- [ ] Setup Visual Code
+- [ ] Setup Sublime Text
+- [ ] Setup React Native Debugger
+- [ ] Setup git
+- [ ] Setup SSH
+- [ ] Setup Heroku CLI
+- [ ] Setup AWS CLI
+- [ ] Setup Composer
+- [ ] Setup RAR
+- [ ] Setup GDrive CLI
+- [ ] Setup HTop
+- [ ] Setup Tree
+- [ ] Setup iDeviceInstaller
+- [ ] Setup json-server
+- [ ] Setup http-server
+- [ ] Setup Maven
+- [ ] Setup React Native CLI
+- [ ] Setup Adobe Photoshop CC
+- [ ] Setup Adobe Illustrator CC
+- [ ] Setup zoom.us
+- [ ] Setup Keynote
 
 ## License
 
