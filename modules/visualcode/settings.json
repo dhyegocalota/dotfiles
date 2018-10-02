@@ -1,0 +1,29 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "workbench.colorTheme": "Atom One Dark",
+    "window.zoomLevel": 1,
+    "files.autoSave": "onFocusChange",
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "ruby.lint": {
+        "reek": true,
+        "rubocop": true,
+        "ruby": true,
+        "fasterer": true,
+        "debride": true,
+        "ruby-lint": true
+    },
+    "workbench.activityBar.visible": true,
+    "search.location": "sidebar",
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always"
+}

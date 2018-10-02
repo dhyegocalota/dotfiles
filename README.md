@@ -40,6 +40,7 @@ wget -q -O - https://raw.github.com/dhyegofernando/dotfiles/master/install | bas
 - [ ] Setup LastPass
 - [ ] Setup Docker
 - [ ] Setup Franz
+- [ ] Setup Font Fira Code
 - [ ] Setup Visual Code
 - [ ] Setup Sublime Text
 - [ ] Setup React Native Debugger
