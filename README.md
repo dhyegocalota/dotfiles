@@ -62,6 +62,8 @@ wget -q -O - https://raw.github.com/dhyegofernando/dotfiles/master/install | bas
 - [ ] Setup Adobe Illustrator CC
 - [ ] Setup zoom.us
 - [ ] Setup Keynote
+- [ ] Setup Postman
+- [ ] Setup Spotify
 
 ## License
 
