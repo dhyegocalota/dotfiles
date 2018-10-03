@@ -10,7 +10,6 @@
         "javascript": "javascriptreact"
     },
     "explorer.confirmDragAndDrop": false,
-    "java.errors.incompleteClasspath.severity": "ignore",
     "workbench.activityBar.visible": true,
     "search.location": "sidebar",
     "[javascript]": {
