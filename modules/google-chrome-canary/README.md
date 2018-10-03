@@ -1,6 +1,7 @@
 # Install
 
 ```bash
+brew tap homebrew/cask-versions
 brew cask install google-chrome-canary
 ```
 
