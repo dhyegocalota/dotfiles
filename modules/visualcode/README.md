@@ -7,6 +7,7 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension editorconfig.editorconfig
 code --install-extension akamud.vscode-theme-onedark
 code --install-extension flowtype.flow-for-vscode
+code --install-extension robertohuertasm.vscode-icons
 
 code --disable-extension vscode.typescript-language-features
 
