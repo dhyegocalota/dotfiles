@@ -9,4 +9,7 @@ export NVM_DIR="$HOME/.nvm"
 EOF
 
 nvm install --latest-npm
+nvm alias default node
+
+brew install yarn --without-node
 ```
