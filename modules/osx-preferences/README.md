@@ -8,6 +8,7 @@ sudo defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 ```
 
 ### Three fingers drag
-```bash
-sudo defaults write NSGlobalDomain com.apple.trackpad.threeFingerSwipeGesture -int 1
-```
+I haven't find any working snippet code yet.
+
+### Disable scroll diretion natural
+I haven't find any working snippet code yet.
