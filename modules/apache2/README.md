@@ -1,12 +1,13 @@
 # Setup
 ```bash
-sudo apachectl -k start
-
 sudo rm -rf /etc/apache2/other
 
 sudo cp -R other vhosts /etc/apache2
 
-sudo apachectl -k restart
+sudo launchctl load -w /System/Library/LaunchDaemons/org.apache.httpd.plist
+
+sudo apachectl -k stop 2> /dev/null
+sudo apachectl -k start
 ```
 
 ## PHP Switcher
