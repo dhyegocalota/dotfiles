@@ -16,3 +16,6 @@ mkdir -p  ~/Library/Application\ Support/Google/Chrome
 ```bash
 find ~/Library/Application\ Support/Google/Chrome/NativeMessagingHosts/ -name \*.com.agilebits.1password.json -exec cp {} ~/Library/Application\ Support/Google/Chrome\ Canary/NativeMessagingHosts/ \;
 ```
+
+## Update
+If you want to use chrome extension so do not update 1password to version 7.
