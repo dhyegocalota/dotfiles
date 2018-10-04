@@ -12,3 +12,10 @@ I haven't find any working snippet code yet.
 
 ### Disable scroll diretion natural
 I haven't find any working snippet code yet.
+
+## Mouse
+
+### Secondary click
+```bash
+sudo defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode TwoButton
+```
