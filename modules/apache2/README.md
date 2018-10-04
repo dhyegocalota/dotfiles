@@ -9,7 +9,7 @@ sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist
 ```bash
 brew install httpd
 
-sudo cp -R other vhosts /usr/local/etc/httpd/
+sudo cp -R other vhosts /usr/local/etc/httpd
 
 sed "s/{{whoami}}/`whoami`/g" /usr/local/etc/httpd/other/00_unixd.conf | sudo tee /usr/local/etc/httpd/other/00_unixd.conf > /dev/null
 
