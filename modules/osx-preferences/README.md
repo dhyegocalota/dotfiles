@@ -39,3 +39,10 @@ I haven't find any working snippet code yet.
 
 ### Change Delay until repeat [6/6]
 I haven't find any working snippet code yet.
+
+## Menu Bar
+```bash
+defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/CoreServices/Menu Extras/Volume.menu"
+defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/CoreServices/Menu Extras/Bluetooth.menu"
+killall SystemUIServer
+```
