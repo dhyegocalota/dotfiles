@@ -13,7 +13,7 @@ sudo cp -R other vhosts /usr/local/etc/httpd
 
 sed "s/{{whoami}}/`whoami`/g" /usr/local/etc/httpd/other/00_unixd.conf | sudo tee /usr/local/etc/httpd/other/00_unixd.conf > /dev/null
 
-echo "\nInclude /usr/local/etc/httpd/*.conf" | sudo tee -a /usr/local/etc/httpd/httpd.conf > /dev/null
+echo "\nInclude /usr/local/etc/httpd/other/*.conf" | sudo tee -a /usr/local/etc/httpd/httpd.conf > /dev/null
 
 brew services start httpd
 ```
