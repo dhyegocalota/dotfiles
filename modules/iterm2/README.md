@@ -11,4 +11,6 @@ cp .zshrc ~/
 sudo dscl . -create /Users/$USER UserShell /usr/local/bin/zsh
 
 cp -R .zsh ~/
+
+mkdir -p ~/Projects
 ```
