@@ -1,9 +1,11 @@
 export DOTFILES_LOADED="true"
 export SHELL_NAME="zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
-# Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vim'
-else
-  export EDITOR='code'
-fi
+ZSH_THEME="robbyrussell"
+
+plugins=(
+  git
+)
+
+source $ZSH/oh-my-zsh.sh
