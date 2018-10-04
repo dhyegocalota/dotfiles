@@ -1,13 +1,13 @@
 ## Trackpad
 
-### Tap to click
+### Enable Tap to click
 ```bash
 sudo defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
 sudo defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 sudo defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 ```
 
-### Three fingers drag
+### Enable Three fingers drag
 I haven't find any working snippet code yet.
 
 ### Disable scroll diretion natural
@@ -15,7 +15,19 @@ I haven't find any working snippet code yet.
 
 ## Mouse
 
-### Secondary click
+### Enable Secondary click
 ```bash
 sudo defaults write com.apple.driver.AppleBluetoothMultitouch.mouse MouseButtonMode TwoButton
 ```
+
+### Enable Disable scroll diretion natural
+I haven't find any working snippet code yet.
+
+### Enable Smart zoom
+I haven't find any working snippet code yet.
+
+### Change Tracking speed to [8/10]
+I haven't find any working snippet code yet.
+
+### Enable Switch between pages
+I haven't find any working snippet code yet.
