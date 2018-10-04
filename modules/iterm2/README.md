@@ -1,4 +1,4 @@
 # Install
-``bash
+```bash
 brew cask install iterm2
 ```
