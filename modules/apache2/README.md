@@ -4,7 +4,7 @@ sudo rm -rf /etc/apache2/other
 
 sudo cp -R other vhosts /etc/apache2
 
-sed "s/{{whoami}}/`whoami`/g" /etc/apache2/other/00_unixd.conf | sudo tee /etc/apache2/other/00_unixd.conf
+sed "s/{{whoami}}/`whoami`/g" /etc/apache2/other/00_unixd.conf | sudo tee /etc/apache2/other/00_unixd.conf > /dev/null
 
 sudo launchctl load -w /System/Library/LaunchDaemons/org.apache.httpd.plist
 
