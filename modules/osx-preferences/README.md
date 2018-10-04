@@ -31,3 +31,11 @@ I haven't find any working snippet code yet.
 
 ### Enable Switch between pages
 I haven't find any working snippet code yet.
+
+## Keyboard
+
+### Change Key repeat [8/8]
+I haven't find any working snippet code yet.
+
+### Change Delay until repeat [6/6]
+I haven't find any working snippet code yet.
