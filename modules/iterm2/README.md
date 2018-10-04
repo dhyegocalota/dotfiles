@@ -14,3 +14,6 @@ cp -R .zsh ~/
 
 mkdir -p ~/Projects
 ```
+
+## Settings & Profiles
+It has to load my settings and profiles yet.
