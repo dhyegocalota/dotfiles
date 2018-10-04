@@ -16,7 +16,7 @@ function eb_download_mysql_db() {
   fi
 
   tmp_file=/tmp/cxeleitoral.sql
-  touch tmp_file
+  touch $tmp_file
 
   echo "Dumping db..."
 
