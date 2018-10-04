@@ -16,4 +16,4 @@ mkdir -p ~/Projects
 ```
 
 ## Settings & Profiles
-It has to load my settings and profiles yet.
+`TODO: It has to load my settings and profiles yet.`
