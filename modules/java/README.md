@@ -1,4 +1,4 @@
 # Install
 ```bash
-brew cask install java
+brew cask install java8
 ```
