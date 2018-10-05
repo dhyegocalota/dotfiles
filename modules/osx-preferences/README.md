@@ -41,11 +41,15 @@ I haven't find any working snippet code yet.
 I haven't find any working snippet code yet.
 
 ## Menu Bar
+*Set my applications*
 ```bash
 defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/CoreServices/Menu Extras/Volume.menu"
 defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/CoreServices/Menu Extras/Bluetooth.menu"
 killall SystemUIServer
 ```
+
+*Show battery percentage*
+I haven't find any working snippet code yet.
 
 ## Dock
 - Remove all applications
