@@ -46,3 +46,15 @@ defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/C
 defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/CoreServices/Menu Extras/Bluetooth.menu"
 killall SystemUIServer
 ```
+
+## Dock
+- Remove all applications
+- Set my applications
+
+## Screensaver
+- Set "Start after" to "Never"
+
+## Energy saver
+- Set "Turn display off after" bar to "Never"
+- Enable "Prevent computer from sleeping automatically when the display is off"
+- Disable "Enable Power Nap while plugged into a power adapter"
