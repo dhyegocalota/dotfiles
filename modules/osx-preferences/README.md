@@ -34,6 +34,9 @@ I haven't find any working snippet code yet.
 
 ## Keyboard
 
+### Keyboard input source
+- Add "Brazil - Pro" and set as default
+
 ### Change Key repeat [8/8]
 I haven't find any working snippet code yet.
 
