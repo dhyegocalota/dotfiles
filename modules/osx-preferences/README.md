@@ -54,6 +54,10 @@ I haven't find any working snippet code yet.
 ## Dock
 - Remove all applications
 - Set my applications
+- Set "Position on screen" to "Left"
+- Enable "Minimize windows into application icon"
+- Enable "Automatically opening applications"
+- Disable "Show recent applications in Dock"
 
 ## Screensaver
 - Set "Start after" to "Never"
