@@ -69,3 +69,6 @@ I haven't find any working snippet code yet.
 - Set "Turn display off after" bar to "Never"
 - Enable "Prevent computer from sleeping automatically when the display is off"
 - Disable "Enable Power Nap while plugged into a power adapter"
+
+## User and Groups
+- Disable guests to use this computer
