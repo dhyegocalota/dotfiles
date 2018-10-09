@@ -17,6 +17,3 @@ echo "\nInclude /usr/local/etc/httpd/other/*.conf" | sudo tee -a /usr/local/etc/
 
 brew services start httpd
 ```
-
-## PHP Switcher
-[This script](https://github.com/dhyegofernando/dotfiles/blob/master/modules/apache2/phpswitcher) is intended to easily switch PHP from CLI and Apache2 handler with brew.
