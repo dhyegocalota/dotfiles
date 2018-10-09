@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Check if command was ran as root.
 if [[ $(id -u) -eq 0 ]]; then
     echo "The command \"sphp\" should not be executed as root or via sudo directly."
     echo "When a service requires root access, you will be prompted for a password as needed."
@@ -16,7 +15,6 @@ function show_help_and_exit() {
     exit 1
 }
 
-# Usage
 if [ $# -lt 1 ]; then
     show_help_and_exit
 fi
