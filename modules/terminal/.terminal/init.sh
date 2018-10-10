@@ -9,4 +9,5 @@ if [[ "$TERMINAL_DOTFILES_LOADED" != "true" ]]; then
   source $HOME/.terminal/mysql.sh
   source $HOME/.terminal/eb.sh
   source $HOME/.terminal/php.sh
+  source $HOME/.terminal/rvm.sh
 fi
