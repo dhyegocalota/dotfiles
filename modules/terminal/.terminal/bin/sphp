@@ -61,7 +61,6 @@ fi
 
 echo "PHP version $NEW_VERSION found"
 
-# Check if new version is already the current version.
 if [ "${NEW_VERSION}" == "${CURRENT_VERSION}" ]; then
   echo -n "PHP version ${NEW_VERSION} is already being used. Continue by reloading? (y/n) "
   while true; do
@@ -73,23 +72,45 @@ if [ "${NEW_VERSION}" == "${CURRENT_VERSION}" ]; then
   done
 fi
 
-# echo "Unlinking old binaries..."
+echo "Unlinking old binaries..."
 brew unlink php$CURRENT_VERSION 2> /dev/null > /dev/null
 
-# echo "Linking new binaries..."
+echo "Linking new binaries..."
 brew link php$NEW_VERSION --force 2> /dev/null > /dev/null
 
-echo "Disabling old httpd module..."
-sudo sed -i -e "/LoadModule php${OLD_MAJOR}_module/s/^#*/#/" $HTTPD_CONF
-
-echo "Enabling new httpd module..."
-if grep "LoadModule php${NEW_MAJOR}_module" $HTTPD_CONF > /dev/null; then
-  sudo sed -i -e "/LoadModule php${NEW_MAJOR}_module/s/^#//" $HTTPD_CONF
-else
-  brew info php${NEW_VERSION} | grep "LoadModule" | xargs | sudo tee -a $HTTPD_CONF > /dev/null
+if grep "LoadModule php${OLD_MAJOR}_module" $HTTPD_CONF > /dev/null; then
+  echo "Disabling old httpd module load..."
+  sudo sed -i -e "/LoadModule php${OLD_MAJOR}_module/s/^#*/#/" $HTTPD_CONF
 fi
 
-echo "Updating version file..."
+if grep "LoadModule php${NEW_MAJOR}_module" $HTTPD_CONF > /dev/null; then
+  echo "Enabling new httpd module load..."
+  sudo sed -i -e "/LoadModule php${NEW_MAJOR}_module/s/^#//" $HTTPD_CONF
+else
+  echo "Installing new httpd module load..."
+  brew info php${NEW_VERSION} | grep "LoadModule" | xargs -I '{}' echo $'\n{}' | sudo tee -a $HTTPD_CONF > /dev/null
+fi
+
+if ! grep "<IfModule php${NEW_MAJOR}_module>" $HTTPD_CONF > /dev/null; then
+  echo "Installing new httpd module handler..."
+  (
+  cat << EOF
+
+<IfModule php${NEW_MAJOR}_module>
+	AddType application/x-httpd-php .php
+	AddType application/x-httpd-php-source .phps
+
+	<FilesMatch \.php$>
+		SetHandler application/x-httpd-php
+	</FilesMatch>
+
+	<IfModule dir_module>
+		DirectoryIndex index.html index.php
+	</IfModule>
+</IfModule>
+EOF
+  ) | sudo tee -a $HTTPD_CONF > /dev/null
+fi
 
 pgrep -f httpd > /dev/null 2>&1
 if [ $? -eq 0 ]; then
@@ -99,6 +120,4 @@ if [ $? -eq 0 ]; then
 fi
 
 echo "Done."
-
-# Show PHP CLI version for verification.
 echo && php -v
