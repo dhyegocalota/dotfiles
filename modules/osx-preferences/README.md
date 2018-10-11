@@ -72,3 +72,11 @@ I haven't find any working snippet code yet.
 
 ## User and Groups
 - Disable guests to use this computer
+
+## Finder
+
+### Always show expanded dialog
+```bash
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
+```
