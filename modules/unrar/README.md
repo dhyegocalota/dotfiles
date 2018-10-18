@@ -1,4 +1,4 @@
 # Install
 ```bash
-brew install rar
+brew install unrar
 ```
