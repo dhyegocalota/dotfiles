@@ -11,6 +11,7 @@ code --install-extension ms-vscode.js-atom-grammar
 code --install-extension robertohuertasm.vscode-icons
 code --install-extension felixfbecker.php-intellisense
 code --install-extension mikeburgh.xml-format
+code --install-extension ms-vsliveshare.vsliveshare
 
 code --disable-extension vscode.typescript-language-features
 
