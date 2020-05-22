@@ -10,7 +10,7 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension editorconfig.editorconfig
 code --install-extension akamud.vscode-theme-onedark
 code --install-extension ms-vscode.js-atom-grammar
-code --install-extension robertohuertasm.vscode-icons
+code --install-extension vscode-icons-team.vscode-icons
 code --install-extension mikeburgh.xml-format
 code --install-extension ms-vsliveshare.vsliveshare
 code --install-extension octref.vetur
