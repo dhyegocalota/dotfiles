@@ -11,4 +11,5 @@ if [[ "$TERMINAL_DOTFILES_LOADED" != "true" ]]; then
   source $HOME/.terminal/php.sh
   source $HOME/.terminal/rvm.sh
   source $HOME/.terminal/android.sh
+  source $HOME/.terminal/pyenv.sh
 fi
